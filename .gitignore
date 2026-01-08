@@ -1,0 +1,24 @@
+# Frontend
+node_modules/
+dist/
+.env
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# ASP.NET secrets
+appsettings.Development.json
+
+# Python / ML
+__pycache__/
+.venv/
+*.pyc
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db

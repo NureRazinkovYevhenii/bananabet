@@ -1,0 +1,58 @@
+:root {
+  --color-primary: #f1c40f; /* Banana Yellow */
+  --color-primary-hover: #f39c12;
+  --color-dark-bg: #101014;
+  --color-card-bg: #1c1c21;
+  --color-border: #2c2c36;
+  --color-text-main: #ffffff;
+  --color-text-muted: #a0a0b0;
+  
+  --color-success: #2ecc71;
+  --color-danger: #e74c3c;
+  --color-blue: #3498db;
+  --color-ongoing: #e67e22;
+
+  --nav-height: 64px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-dark-bg);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark-bg); 
+}
+::-webkit-scrollbar-thumb {
+  background: #333; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* Utility classes */
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
